@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E4D65D0-8DB2-42A7-AF70-B9E393781048}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA1A61EC-6D32-418C-B06F-D9390C190FB3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetPress", "src\NetPress\NetPress.xproj", "{EE1414E3-5320-489D-B446-08E88A614D1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE1414E3-5320-489D-B446-08E88A614D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1414E3-5320-489D-B446-08E88A614D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1414E3-5320-489D-B446-08E88A614D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1414E3-5320-489D-B446-08E88A614D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE1414E3-5320-489D-B446-08E88A614D1C} = {1E4D65D0-8DB2-42A7-AF70-B9E393781048}
+	EndGlobalSection
+EndGlobal
