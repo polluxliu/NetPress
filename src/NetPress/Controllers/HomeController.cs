@@ -20,7 +20,7 @@ namespace NetPress.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Post()
         {
             ViewData["Message"] = "Your contact page.";
 

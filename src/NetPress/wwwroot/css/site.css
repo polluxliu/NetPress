@@ -2,6 +2,11 @@
     height: 100%;
 }
 
+body {
+    background: #eff3fa;
+    font-family: "Microsoft Yahei","微软雅黑";
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -61,4 +66,24 @@ textarea {
     min-height: 100%;
     padding: 50px 0 0 0;
     background: #fff;
+}
+
+.body-content .panel:first-child {
+    margin-top: 20px;
+}
+
+.body-content .panel > .panel-heading, .body-content .panel > .panel-footer {
+    background: #fff;
+}
+
+.body-content > footer {
+    margin: 20px auto;
+}
+
+.post > footer {
+    margin: 20px auto;
+}
+
+iframe body {
+    color: #ff6a00 !important;
 }
